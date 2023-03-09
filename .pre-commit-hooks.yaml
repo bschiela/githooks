@@ -1,0 +1,6 @@
+- id: do-not-commit
+  name: do-not-commit
+  description: Check for DO NOT COMMIT
+  entry: pre-commit/do-not-commit
+  language: script
+  stages: [commit]
