@@ -4,3 +4,9 @@
   entry: pre-commit/do-not-commit
   language: script
   stages: [commit]
+- id: python-unittest
+  name: python-unittest
+  description: Run python unittest
+  entry: pre-push/python-unittest
+  language: script
+  stages: [push]
