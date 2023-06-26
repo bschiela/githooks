@@ -9,4 +9,3 @@
   description: Run python unittest
   entry: pre-push/python-unittest
   language: script
-  stages: [push]
